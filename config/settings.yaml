@@ -7,17 +7,17 @@ title: Home Dashboard
 # Background Image (using external URL)
 background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
 
-# Time & Location
+# Time & Location - UPDATE WITH YOUR LOCATION
 timezone: America/New_York
 location:
-  - latitude: 40.7128
-    longitude: -74.0060
+  - latitude: YOUR_LATITUDE
+    longitude: YOUR_LONGITUDE
 
-# Weather
+# Weather - UPDATE WITH YOUR LOCATION
 weather:
   provider: openmeteo
-  latitude: 40.7128
-  longitude: -74.0060
+  latitude: YOUR_LATITUDE
+  longitude: YOUR_LONGITUDE
 
 # Layout
 layout:

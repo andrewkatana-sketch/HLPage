@@ -2,22 +2,21 @@
 
 ## Quick Start
 
-### 1. Copy to Ubuntu Host (192.168.1.19)
+### 1. Copy to Your Host
 
 ```bash
-# On Ubuntu host, create directory:
+# On your host, create directory:
 sudo mkdir -p /opt/homepage
 sudo chown $USER:$USER /opt/homepage
 
 # Copy this entire folder to /opt/homepage/
 ```
 
-### 2. Enable TrueNAS Docker API
+### 2. Enable Docker API (Optional)
 
-On TrueNAS (192.168.1.111), create a docker-socket-proxy container:
+If you want to discover Docker containers from another host, enable Docker API on that host:
 
 ```bash
-# SSH to TrueNAS and run:
 docker run -d \
   --name docker-socket-proxy \
   -p 2375:2375 \
@@ -36,7 +35,7 @@ docker compose up -d
 ### 4. Access Homepage
 
 ```
-http://192.168.1.19:3000
+http://YOUR_IP:3000
 ```
 
 ---
@@ -48,12 +47,11 @@ http://192.168.1.19:3000
 - Edit to customize appearance
 
 ### services.yaml
-- Service widgets (Pi-hole is pre-configured)
+- Service widgets
 - Add more services here
-- Discovered services will be imported from discovered.yaml
 
 ### bookmarks.yaml
-- Quick links to Cockpit, TrueNAS, Pi-hole, etc.
+- Quick links to your services
 - Edit to add/remove bookmarks
 
 ---
@@ -94,20 +92,20 @@ Homepage will auto-discover containers with these labels.
 
 ```yaml
 - Service Name:
-    href: http://192.168.1.111:8080
+    href: http://YOUR_SERVER_IP:8080
     icon: service.png
     description: Your service
     widget:
       type: service-type
-      url: http://192.168.1.111:8080
+      url: http://YOUR_SERVER_IP:8080
 ```
 
 ---
 
 ## Troubleshooting
 
-### Can't connect to TrueNAS
-- Verify Docker API is enabled on TrueNAS
+### Can't connect to Docker API
+- Verify Docker API is enabled on the remote host
 - Check firewall allows port 2375 between hosts
 
 ### Services not showing

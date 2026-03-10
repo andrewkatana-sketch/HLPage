@@ -5,39 +5,27 @@
 - Network:
     - Pi-hole:
         - abbr: PI
-          href: http://192.168.1.171/admin
+          href: http://10.0.0.100/admin
     - AdGuard:
         - abbr: AG
-          href: http://192.168.1.111:30080
+          href: http://10.0.0.101:30080
 - Linux Servers:
-    - Ubuntu Host (19):
-        - abbr: U1
-          href: http://192.168.1.19:9090
-    - TrueNAS:
-        - abbr: TN
-          href: https://192.168.1.111/ui
-    - TrueNAS Cockpit:
-        - abbr: T1
-          href: https://192.168.1.111:9090
-    - Host 171 Cockpit:
-        - abbr: H1
-          href: http://192.168.1.171:9090
-    - Host 18 Cockpit:
-        - abbr: H2
-          href: http://192.168.1.18:9090
-    - Host 180 Cockpit:
-        - abbr: H3
-          href: http://192.168.1.180:9090
-    - Host 181 Cockpit:
-        - abbr: H4
-          href: http://192.168.1.181:9090
+    - Server 1 Cockpit:
+        - abbr: S1
+          href: http://10.0.0.10:9090
+    - Server 2 Cockpit:
+        - abbr: S2
+          href: http://10.0.0.11:9090
+    - Server 3 Cockpit:
+        - abbr: S3
+          href: http://10.0.0.12:9090
+    - Server 4 Cockpit:
+        - abbr: S4
+          href: http://10.0.0.13:9090
 - System Admin:
-    - Webmin (19):
+    - Webmin 1:
         - abbr: WM
-          href: http://192.168.1.19:10000
-    - Webmin (171):
-        - abbr: W1
-          href: http://192.168.1.171:10000
-    - Webmin (18):
+          href: http://10.0.0.10:10000
+    - Webmin 2:
         - abbr: W2
-          href: http://192.168.1.18:10000
+          href: http://10.0.0.11:10000
