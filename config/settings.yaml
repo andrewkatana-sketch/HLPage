@@ -4,39 +4,14 @@
 theme: dark
 title: Home Dashboard
 
-# Background Image (using external URL)
+# Background Image
 background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
 
 # Time & Location
 timezone: America/New_York
 
-# Weather
-weather:
-  provider: openmeteo
-  location: local
-
-# Layout - Widgets in the main area
-layout:
-  - Clock:
-      icon: clock.png
-      widgets:
-        - datetime:
-            format: "%I:%M %p"
-            textAlign: center
-            fontSize: 48px
-  - Weather:
-      icon: weather.png
-      widgets:
-        - weather:
-            location: local
-            units: imperial
-  - Services:
-      style: row
-  - Media:
-      style: row
+# Layout
+layout: []
 
 # Header (top bar)
-header:
-  - search:
-      provider: duckduckgo
-      focus: true
+header: []

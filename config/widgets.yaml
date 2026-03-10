@@ -11,11 +11,12 @@
     target: _blank
 
 - datetime:
-    format: "%I:%M %p"
+    timeFormat: "%I:%M %p"
     dateFormat: "%A, %B %d"
 
 - weather:
     provider: openmeteo
-    location: local
+    latitude: 39.9259
+    longitude: -75.0305
     units: imperial
     show-icon: true
