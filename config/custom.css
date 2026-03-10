@@ -1,50 +1,71 @@
-# Custom CSS for better contrast
+# Custom CSS for better contrast with red text
 
 /* Make bookmarks more readable on dark background */
 .bookmarks-container {
-    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
     backdrop-filter: blur(10px);
     border-radius: 8px;
     padding: 16px;
 }
 
-/* Bookmark links - white text */
+/* Bookmark links - RED text for high contrast */
 a.bookmark-link, .bookmark-item a {
-    color: #ffffff !important;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    font-weight: 500;
-}
-
-/* Bookmark hover effect */
-a.bookmark-link:hover {
-    color: #4FC3F7 !important;
-}
-
-/* Bookmark abbreviation badges */
-.bookmark-abbr {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    color: #ffffff !important;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-/* Category headers */
-.bookmark-category {
-    color: #ffffff !important;
+    color: #FF6B6B !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
     font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* Bookmark hover effect - lighter red */
+a.bookmark-link:hover {
+    color: #FF9999 !important;
+}
+
+/* Bookmark abbreviation badges - red background */
+.bookmark-abbr {
+    background-color: #CC4444 !important;
+    color: #FFFFFF !important;
+    border: 2px solid #FF6B6B;
+    font-weight: bold;
+}
+
+/* Category headers - RED */
+.bookmark-category {
+    color: #FF6B6B !important;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 8px;
-    margin-bottom: 12px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #FF6B6B;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
 }
 
 /* Service cards */
 .service-card {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border: 1px solid #FF6B6B;
 }
 
 /* Widget backgrounds */
 .widget-container {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Header text - red */
+.header-text, .datetime, .weather {
+    color: #FF6B6B !important;
+}
+
+/* Clock/Time display */
+.time, .date {
+    color: #FF6B6B !important;
+    font-weight: bold;
+}
+
+/* Search box */
+input[placeholder="Search"] {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #FF6B6B !important;
+    border: 1px solid #FF6B6B !important;
 }

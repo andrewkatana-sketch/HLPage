@@ -7,17 +7,12 @@ title: Home Dashboard
 # Background Image (using external URL)
 background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
 
-# Time & Location - UPDATE WITH YOUR LOCATION
+# Time & Location
 timezone: America/New_York
-location:
-  - latitude: YOUR_LATITUDE
-    longitude: YOUR_LONGITUDE
 
-# Weather - UPDATE WITH YOUR LOCATION
+# Weather - Uses IP-based location automatically
 weather:
   provider: openmeteo
-  latitude: YOUR_LATITUDE
-  longitude: YOUR_LONGITUDE
 
 # Layout
 layout:
@@ -32,10 +27,9 @@ header:
       provider: duckduckgo
       focus: true
   - datetime:
-      format: "%H:%M"
+      format: "%I:%M %p"
       dateFormat: "%A, %B %d"
   - weather:
       location: local
       units: imperial
       show-icon: true
-      hide-title: true
