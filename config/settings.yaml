@@ -10,12 +10,26 @@ background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&
 # Time & Location
 timezone: America/New_York
 
-# Weather - Uses IP-based location automatically
+# Weather
 weather:
   provider: openmeteo
+  location: local
 
-# Layout
+# Layout - Widgets in the main area
 layout:
+  - Clock:
+      icon: clock.png
+      widgets:
+        - datetime:
+            format: "%I:%M %p"
+            textAlign: center
+            fontSize: 48px
+  - Weather:
+      icon: weather.png
+      widgets:
+        - weather:
+            location: local
+            units: imperial
   - Services:
       style: row
   - Media:
@@ -26,10 +40,3 @@ header:
   - search:
       provider: duckduckgo
       focus: true
-  - datetime:
-      format: "%I:%M %p"
-      dateFormat: "%A, %B %d"
-  - weather:
-      location: local
-      units: imperial
-      show-icon: true

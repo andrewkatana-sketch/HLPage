@@ -1,6 +1,5 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/info-widgets/
+# Widgets configuration
 
 - resources:
     cpu: true
@@ -10,3 +9,13 @@
 - search:
     provider: duckduckgo
     target: _blank
+
+- datetime:
+    format: "%I:%M %p"
+    dateFormat: "%A, %B %d"
+
+- weather:
+    provider: openmeteo
+    location: local
+    units: imperial
+    show-icon: true
