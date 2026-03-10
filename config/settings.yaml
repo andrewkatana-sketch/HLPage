@@ -1,0 +1,41 @@
+# Homepage Settings
+
+# Theme and Appearance
+theme: dark
+title: Home Dashboard
+
+# Background Image (using external URL)
+background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
+
+# Time & Location
+timezone: America/New_York
+location:
+  - latitude: 40.7128
+    longitude: -74.0060
+
+# Weather
+weather:
+  provider: openmeteo
+  latitude: 40.7128
+  longitude: -74.0060
+
+# Layout
+layout:
+  - Services:
+      style: row
+  - Media:
+      style: row
+
+# Header (top bar)
+header:
+  - search:
+      provider: duckduckgo
+      focus: true
+  - datetime:
+      format: "%H:%M"
+      dateFormat: "%A, %B %d"
+  - weather:
+      location: local
+      units: imperial
+      show-icon: true
+      hide-title: true

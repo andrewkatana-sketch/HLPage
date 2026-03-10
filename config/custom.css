@@ -1,0 +1,50 @@
+# Custom CSS for better contrast
+
+/* Make bookmarks more readable on dark background */
+.bookmarks-container {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* Bookmark links - white text */
+a.bookmark-link, .bookmark-item a {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+/* Bookmark hover effect */
+a.bookmark-link:hover {
+    color: #4FC3F7 !important;
+}
+
+/* Bookmark abbreviation badges */
+.bookmark-abbr {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Category headers */
+.bookmark-category {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+/* Service cards */
+.service-card {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Widget backgrounds */
+.widget-container {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}

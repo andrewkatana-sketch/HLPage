@@ -1,0 +1,73 @@
+[2026-03-09T23:48:02.267Z] info: kubernetes.yaml was copied to the config folder
+[2026-03-09T23:48:31.101Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.878Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.888Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.903Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.937Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.953Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.965Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.974Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:31.987Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:32.014Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:32.026Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:32.034Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.848Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.924Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.933Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.942Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.950Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.957Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.966Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.977Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.983Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:42.995Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:43.002Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:43.008Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:48:43.022Z] error: Host validation failed for: 192.168.1.19:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-09T23:50:55.566Z] info: widgets.yaml was copied to the config folder
+[2026-03-09T23:50:55.588Z] info: docker.yaml was copied to the config folder
+[2026-03-09T23:50:55.647Z] info: proxmox.yaml was copied to the config folder
+[2026-03-09T23:50:55.685Z] info: custom.css was copied to the config folder
+[2026-03-09T23:50:55.687Z] info: custom.js was copied to the config folder
+[2026-03-09T23:50:55.856Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:50:55.858Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:50:55.890Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:50:55.891Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:50:56.469Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:50:56.470Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:51:07.066Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:51:07.067Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:51:07.344Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:51:07.344Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:53:41.485Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:53:41.489Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:53:41.496Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:53:41.497Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:53:42.061Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:53:42.062Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:53:51.527Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:53:51.528Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:54:19.102Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:54:19.103Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:54:40.602Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:54:40.602Z] error: TypeError: b[c].forEach is not a function
+[2026-03-09T23:55:51.868Z] error: Failed to load services.yaml, please check for errors
+[2026-03-09T23:55:51.868Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:04:24.715Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:04:24.716Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:04:24.718Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:04:24.718Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:04:25.049Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:04:25.050Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:04:31.012Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:04:31.013Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:04:31.244Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:04:31.244Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:05:09.713Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:05:09.714Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:05:37.688Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:05:37.688Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:06:34.242Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:06:34.243Z] error: TypeError: b[c].forEach is not a function
+[2026-03-10T00:06:54.832Z] error: Failed to load services.yaml, please check for errors
+[2026-03-10T00:06:54.832Z] error: TypeError: b[c].forEach is not a function
