@@ -25,7 +25,7 @@ echo "Found $(echo "$live_hosts" | wc -l) live hosts"
 echo "Step 2: Scanning for web services..."
 
 # Scan all live hosts for web ports only, with service detection
-nmap -sV --script=http-title -p 80,443,8080,8443,9090,10000,3000,3001,30004,32400,8096,8181,7878,8989,9696,5055,9000,9443 -oG - $live_hosts 2>/dev/null | grep "Ports:" | while read line; do
+nmap -sV --script=http-title -p 80,443,8080,8443,9090,10000,3000,3001,30004,30121,32400,8096,8181,7878,8989,9696,5055,9000,9443 -oG - $live_hosts 2>/dev/null | grep "Ports:" | while read line; do
     host=$(echo "$line" | awk '{print $2}')
     ports=$(echo "$line" | grep -oP '(?<=Ports: )[^ ]+')
     
@@ -39,6 +39,7 @@ nmap -sV --script=http-title -p 80,443,8080,8443,9090,10000,3000,3001,30004,3240
         # Override with port-based detection
         case "$port" in
             3001|30004) svc="AdGuard"; cat="Network"; abbr="AG";;
+            30121) svc="Nx Witness"; cat="Network"; abbr="NX";;
             9090) svc="Cockpit"; cat="Linux Servers"; abbr="CK";;
             10000) svc="Webmin"; cat="System Admin"; abbr="WM";;
             3000) svc="Homepage"; cat="Homepage"; abbr="HP";;
