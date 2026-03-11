@@ -1,17 +1,13 @@
 # Homepage Settings
 
-# Theme and Appearance
 theme: dark
+color: red
 title: Home Dashboard
 
-# Background Image
 background: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80
 
-# Time & Location
 timezone: America/New_York
 
-# Layout
 layout: []
 
-# Header (top bar)
 header: []

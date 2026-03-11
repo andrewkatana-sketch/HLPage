@@ -1,22 +1,24 @@
 ---
-# Widgets configuration
+# Widgets
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
+      dateStyle: short
 
 - resources:
     cpu: true
     memory: true
     disk: /
 
-- search:
-    provider: duckduckgo
-    target: _blank
-
-- datetime:
-    timeFormat: "%I:%M %p"
-    dateFormat: "%A, %B %d"
-
-- weather:
-    provider: openmeteo
+- openmeteo:
+    label: Home
     latitude: 39.9259
     longitude: -75.0305
+    timezone: America/New_York
     units: imperial
-    show-icon: true
+    cache: 15
+
+- search:
+    provider: duckduckgo

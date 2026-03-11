@@ -5,27 +5,28 @@
 - Network:
     - Pi-hole:
         - abbr: PI
-          href: http://10.0.0.100/admin
+          href: http://192.168.1.171/admin
     - AdGuard:
         - abbr: AG
-          href: http://10.0.0.101:30080
+          href: http://192.168.1.111:30004
 - Linux Servers:
-    - Server 1 Cockpit:
-        - abbr: S1
-          href: http://10.0.0.10:9090
-    - Server 2 Cockpit:
-        - abbr: S2
-          href: http://10.0.0.11:9090
-    - Server 3 Cockpit:
-        - abbr: S3
-          href: http://10.0.0.12:9090
-    - Server 4 Cockpit:
-        - abbr: S4
-          href: http://10.0.0.13:9090
+    - Cockpit 16:
+        - abbr: C16
+          href: https://192.168.1.16:9090
+    - Cockpit 19:
+        - abbr: C19
+          href: https://192.168.1.19:9090
+    - Cockpit 120:
+        - abbr: C120
+          href: https://192.168.1.120:9090
 - System Admin:
-    - Webmin 1:
+    - Webmin 18:
         - abbr: WM
-          href: http://10.0.0.10:10000
-    - Webmin 2:
-        - abbr: W2
-          href: http://10.0.0.11:10000
+          href: http://192.168.1.18:10000
+    - Webmin 19:
+        - abbr: W19
+          href: http://192.168.1.19:10000
+- Homepage:
+    - Dashboard:
+        - abbr: HP
+          href: http://192.168.1.19:3000
