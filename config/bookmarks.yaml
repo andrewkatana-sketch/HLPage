@@ -12,6 +12,9 @@
     - Nx Witness:
         - abbr: NX
           href: http://192.168.1.111:30121
+    - MeTube:
+        - abbr: MT
+          href: http://192.168.1.111:30094
 - Linux Servers:
     - Cockpit 16:
         - abbr: C16
