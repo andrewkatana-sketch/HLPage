@@ -12,9 +12,24 @@
     - Nx Witness:
         - abbr: NX
           href: http://192.168.1.111:30121
+- Storage:
+    - Syncthing:
+        - abbr: SY
+          href: http://192.168.1.111:20910
+    - SMB:
+        - abbr: SMB
+          href: smb://192.168.1.16
+    - NFS:
+        - abbr: NFS
+          href: nfs://192.168.1.16
+- Media:
     - MeTube:
         - abbr: MT
           href: http://192.168.1.111:30094
+- Monitoring:
+    - Netdata:
+        - abbr: ND
+          href: http://192.168.1.111:20489
 - Linux Servers:
     - Cockpit 16:
         - abbr: C16
