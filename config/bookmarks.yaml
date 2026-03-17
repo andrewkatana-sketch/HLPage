@@ -2,6 +2,10 @@
     - Github:
         - abbr: GH
           href: https://github.com/
+- Productivity:
+    - Resume AI:
+        - abbr: RA
+          href: http://192.168.1.19:8501
 - Network:
     - Pi-hole:
         - abbr: PI
